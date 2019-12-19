@@ -1,7 +1,5 @@
 package com.felix.iocbean;
 
-import lombok.Data;
-
 /**
  * ClassName: Person
  * Function: TODO 功能说明.
@@ -15,7 +13,6 @@ import lombok.Data;
  * Modified Date: <修改日期，格式:YYYY-MM-DD>
  * Why & What is modified: <修改描述>
  */
-//@Data
 public class Person {
 
 	private String name;
