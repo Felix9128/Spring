@@ -22,7 +22,7 @@ public class MainStarter {
 
 		Person person = (Person) context.getBean("person");
 
-		System.out.println("person: "+ person.getName()+"-----"+person.getAge());
+		System.out.println(person);
 
 	}
 
