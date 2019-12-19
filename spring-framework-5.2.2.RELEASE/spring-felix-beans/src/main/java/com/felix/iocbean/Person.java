@@ -2,6 +2,8 @@ package com.felix.iocbean;
 
 import org.springframework.beans.factory.InitializingBean;
 
+import javax.annotation.PostConstruct;
+
 /**
  * ClassName: Person
  * Function: TODO 功能说明.
@@ -41,10 +43,10 @@ public class Person implements InitializingBean {
 		System.out.println("inti方法");
 	}
 
-//	@PostConstruct
-//	public void init(){
-//		System.out.println("PostConstruct init");
-//	}
+	@PostConstruct
+	public void init(){
+		System.out.println("PostConstruct init");
+	}
 
 	@Override
 	public void afterPropertiesSet() throws Exception {

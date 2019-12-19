@@ -16,4 +16,5 @@ dependencies {
     compile(project(":spring-core"))
     compile(project(":spring-context"))
     compile(project(":spring-beans"))
+    optional("javax.annotation:javax.annotation-api")
 }
